@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Yay! I'm a grid!</title>
+        <title>Yay! Flexbox practice!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,24 +13,38 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Raleway:ital,wght@0,200;0,500;0,700;1,300&display=swap" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       
-        <section class="wrapper">
-            <div class="div-1">
+       <section class="flex-container">
+            <header>
+                <h1>Hi! I'm Rachael.</h1>
+            </header>
+            <main>
+                <p>I am a <span><em>responsive designer and developer</em></span>  who loves to code.</p>
+            </main>    
+            <div id="div-1" class="flex-items">
                 <p>I was born and raised in San Diego, CA. I graduated from the University of South Carolina in 2016 and then moved back to San Diego. My favorites things about San Diego are the perfect weather, the San Diego Padres, and the beautiful beaches.</p>
             </div>
-            <div class="div-2">
-                <p>I interned and worked for ESPN, the San Diego Chargers, the Padres Radio Network, and SB Nation. Then I worked in real estate for two years. Now I am looking for a job in Charlotte, NC where I can develop my coding skills and design some cool websites.</p>
+            <div id="div-2" class="flex-items">
+                <p>I interned and worked for ESPN, the San Diego Chargers, the Padres Radio Network, and SB Nation. Then I worked in real estate for two years. Now I am looking for a job in Charlotte, NC where I can develop my coding skills and design some cool websites!</p>
             </div>
-            <div class="div-3">
+            <div id="div-3" class="flex-items">
                 <p>Fun fact: My dad is a professional water skiier. He races long-distance and can sky up to 70 miles at 75 mph! I was on the team for a couple races as the observer on the boat and relayed signals from the driver to my dad.</p>
             </div>
+            <footer>
+                <ul>
+                    <li><a href="https://www.twitter.com/rachaellackner" target="BLANK"><img src="img/twitter.png" alt="twitter icon" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/rachaellackner/" target="BLANK"><img src="img/linkedin.png" alt="linkedin icon" /></a></li>
+                    <li><a href="https://github.com/rachael-lackner" target="BLANK"><img src="img/github.png" alt="github icon" /></a></li>
+                </ul>
+            </footer>
         </section>    
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
